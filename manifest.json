@@ -1,0 +1,34 @@
+{
+   "author": "Philip Lawrence",
+   "background": {
+      "persistent": true,
+      "scripts": [ "libs/OmnibugSettings.js", "libs/OmnibugPort.js", "providers.js", "eventPage.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "assets/images/blue-16.png",
+         "32": "assets/images/blue-32.png",
+         "48": "assets/images/blue-48.png"
+      },
+      "default_popup": "popup/popup.html"
+   },
+   "description": "Omnibug is a browser extension to decode and display outgoing digital marketing tool requests.",
+   "devtools_page": "devtools/devtools.html",
+   "homepage_url": "https://omnibug.io/?utm_source=extension&utm_medium=chrome&utm_campaign=homepage_url",
+   "icons": {
+      "128": "assets/images/blue-128.png",
+      "16": "assets/images/blue-16.png",
+      "48": "assets/images/blue-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCY/LweQBxCq0EGBRPiVmK5QKCLxiH8PFIotymMdWRDOJtv41cCyx/CLCRRSPbOA4NWvNgFX0B9LbPgoALTMWSrkRx/tnaokaBIkBlvugNarPSgUV/NUFAYeDHz0nT6gnClNCBfznvxikDvZYL4Fpw0a5yGdgpXINER75Zo3TJx5wIDAQAB",
+   "manifest_version": 2,
+   "name": "Omnibug",
+   "options_page": "options/options.html",
+   "options_ui": {
+      "page": "options/options.html"
+   },
+   "permissions": [ "tabs", "storage", "webRequest", "webNavigation", "*://*/*" ],
+   "short_name": "Omnibug",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.17.0"
+}
